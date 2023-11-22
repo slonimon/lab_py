@@ -1,4 +1,3 @@
-
 # Задаем разбираемый текст
 main_str = """      
 У лукоморья дуб зелёный;
@@ -59,7 +58,7 @@ words = count_letters(main_str)
 frequency = calculate_frequency(words)
 
 for letter, freq in frequency.items():
-    print(letter + ": " + str(freq))
+    print(f"{letter}: {freq:.2f}")
 
 
     # Var 2
